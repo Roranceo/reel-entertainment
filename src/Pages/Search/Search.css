@@ -1,0 +1,10 @@
+.search{
+    display: flex;
+    margin: 60px 0;
+  }
+
+.tabs{
+   display: flex;
+   margin: 50px 440px;
+}
+

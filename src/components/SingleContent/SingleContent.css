@@ -1,0 +1,49 @@
+.media {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 4px;
+    margin: 8px 0;
+    background-color: #282c34de;
+    border-radius: 10px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .media:hover {
+    background-color: rgba(255, 255, 255, 0.616);
+    color: rgba(0, 0, 0, 0.493);
+  }
+  
+  @media (max-width: 550px) {
+    .media {
+      width: 50%;
+    }
+  }
+  
+  .poster {
+    border-radius: 12px;
+  }
+  
+  .title {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+  }
+  
+  .subTitle {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-bottom: 2px;
+    padding: 1 3px;
+    padding-bottom: 6px;
+  }
+
+  .sunTitle{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+  }
